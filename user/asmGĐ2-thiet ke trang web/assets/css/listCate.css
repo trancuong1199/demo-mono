@@ -1,0 +1,27 @@
+.filterPrice {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.filterPrice-title {
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+.filterPrice-children {
+    display: flex;
+    font-size: 1.8rem;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filterPrice-children input {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.product-img-cate
+ {
+    margin-top: -40px;
+}

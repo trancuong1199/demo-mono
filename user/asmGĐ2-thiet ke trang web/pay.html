@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/brand.css">
+    <link rel="stylesheet" href="./assets/css/sign-up.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/viewCart.css">
+    <link rel="stylesheet" href="./assets/css/pay.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/responsive-main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="./assets/fonts/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="grid wide">
+        <div class="row">
+            <header class="header m-12">
+                <nav class="header-navbar">
+                    <a href="index.html" class="logo-connect"><h1 class="header-name">HONO</h1></a>
+
+                    <!-- Header options -->
+
+                    <div class="header-options hide-on-mobile-table">
+                        <div class="header-options-choose text-hover header-options-home">
+                            <a href="index.html" class="index-connect">Trang chủ</a>
+                        </div>
+                        <div class="header-options-choose text-hover header-options-shop">
+                            Sản phẩm
+                            <i class="ti-angle-down"></i>
+                            <div class="header-options-shop-product">
+                                <div class="header-shop-product-body">
+                                </div>
+
+                                <div class="header-options-shop-img">
+                                    <img src="./assets/img/menu-banner.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="header-options-choose text-hover header-options-blog">
+                            <a href="brand.html" class="index-connect">Giới thiệu</a>
+
+                        </div>
+                        <div class="header-options-choose text-hover header-options-pages">
+                            Bộ sưu tập
+                        </div>
+                        <div class="header-options-choose text-hover header-options-about">
+                            <a href="local.html" class="index-connect">Góc cảm hứng</a>
+                        </div>
+                        <!-- <div class="header-options-choose text-hover header-options-contact">
+                            SIGN IN
+                        </div> -->
+                    </div>
+
+                    <!-- Header Icon -->
+
+                    <div class="header-icon">
+
+                        <!-- Icon heart -->
+                        <div class="text-hover header-icon-heart">
+                            <label for="nav-heart-input"
+                                class="text-hover ti-heart hide-on-mobile-table hide-on-PC-low"></label>
+                            <label for="nav-heart-input"
+                                class="header-icon-heart-notice hide-on-mobile-table hide-on-PC-low">3</label>
+
+                            <input type="checkbox" hidden name="" class="heart-checkbox" id="nav-heart-input">
+
+                            <label for="nav-heart-input" class="icon-heart-overlay"></label>
+                            <div class="icon-heart-WishList">
+                                <label for="nav-heart-input" class="icon-heart-product-close ti-close"></label>
+                                <div class="icon-heart-WishList-father">
+                                    <h2>Yêu Thích</h2>
+                                    <div class="icon-heart-product">
+                                        <img class="icon-heart-product-img" src="./assets/img/default-1.jpg" alt="">
+
+                                        <ul class="icon-heart-product-description">
+                                            <li class="product-description-name">Chair Black</li>
+                                            <li class="product-description-price">1 x $49.00</li>
+                                        </ul>
+                                        <i class="icon-heart-product-bin ti-trash"></i>
+                                    </div>
+
+                                    <div class="icon-heart-product">
+                                        <img class="icon-heart-product-img" src="./assets/img/default-1 (1).jpg" alt="">
+
+                                        <ul class="icon-heart-product-description">
+                                            <li class="product-description-name">Chair Black</li>
+                                            <li class="product-description-price">1 x $49.00</li>
+                                        </ul>
+                                        <i class="icon-heart-product-bin ti-trash"></i>
+                                    </div>
+
+                                    <div class="icon-heart-product">
+                                        <img class="icon-heart-product-img" src="./assets/img/default-1 (2).jpg" alt="">
+
+                                        <ul class="icon-heart-product-description">
+                                            <li class="product-description-name">Chair Black</li>
+                                            <li class="product-description-price">1 x $49.00</li>
+                                        </ul>
+                                        <i class="icon-heart-product-bin ti-trash"></i>
+                                    </div>
+                                </div>
+
+                                <button class="heart-WishList-btn">Xem chi tiết</button>
+                            </div>
+                        </div>
+
+                        <!-- Icon bag -->
+
+                        <div class="text-hover header-icon-bag">
+                            <label for="nav-bag-input"
+                                class="text-hover ti-bag hide-on-mobile-table hide-on-PC-low"></label>
+                            <label for="nav-bag-input"
+                                class="header-icon-bag-notice hide-on-mobile-table hide-on-PC-low">6</label>
+
+                            <input type="checkbox" hidden name="" class="bag-checkbox" id="nav-bag-input">
+                            <label for="nav-bag-input" class="icon-bag-overlay"></label>
+                            <div class="icon-bag-Shopping">
+                                <label for="nav-bag-input" class="icon-bag-product-close ti-close"></label>
+                                <h2>Giỏ hàng</h2>
+                                <div class="icon-bag-Shopping-father">
+                                </div>
+
+                                <div class="bag-sum">
+                                </div>
+
+                                <div class="bag-btn">
+                                    <a href="viewCart.html"><button class="bag-WishList-btn">Chi tiết giỏ hàng</button></a>
+                                    <button class="bag-WishList-btn">Yêu thích</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Icon search -->
+                        <div class="text-hover header-icon-search">
+                            <label for="nav-search-input"
+                                class="text-hover ti-search hide-on-mobile-table hide-on-PC-low"></label>
+                            <input type="checkbox" hidden name="" class="search-checkbox" id="nav-search-input">
+                            <div class="icon-search-click">
+                                <label for="nav-search-input" class="icon-search-close ti-close"></label>
+                                <input type="search" placeholder="type keyword(s) here" class="icon-search-input">
+                                <button class="icon-search-btn">SEARCH</button>
+                            </div>
+                        </div>
+
+                    <!-- Icon bars -->
+                        <label for="nav-bars-input" class="header-icon-bars">
+                            <label for="nav-bars-input" class="text-hover ti-menu"></label>
+                            <input type="checkbox" hidden name="" class="bars-checkbox" id="nav-bars-input">
+                            <label for="nav-bars-input" class="icon-bars-overlay"></label>
+                            <div class="icon-bars-Info">
+                                <label for="nav-bars-input" class="icon-bars-Info-close ti-close"></label>
+                                <div class="icon-bars-Info-Contact">
+                                    <h1>HONO</h1>
+                                    <div class="Info-Contact-address">
+                                        <span>Địa chỉ: Quận 12, Hồ Chí Minh</span>
+                                        <span>Email: cuongttph18894@fpt.edu</span>
+                                        <span>Số điện thoại: 0353117498</span>
+                                    </div>
+                                    <div class="Info-Contact-social">
+                                        <li>
+                                            <i class="fab fa-facebook-f"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-twitter"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-instagram"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </li>
+                                    </div>
+                                    <ul class="Info-Contact-text">
+                                        <a style="text-decoration: none;" href="sign-up.html">
+                                            <li>Đăng nhập</li>
+                                        </a>
+                                        <a style="text-decoration: none;" href="sign-up.html">
+                                            <li>Đăng kí</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider-main">
+            <h2 class="slider-title">Thanh toán</h2>
+            <ul class="slider-nav">
+                <li>
+                    Trang chủ
+                    <i class="slider-nav-icon ti-angle-right"></i>
+                </li>
+                <li>Giỏ hàng
+                    <i class="slider-nav-icon ti-angle-right"></i>
+                </li>
+                <li>Thanh toán</li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-12 m-12 c-12">
+                    <div class="main-sign-in register">
+                        <h2 class="sign-in-title">Thông tin khách hàng</h2>
+                        <form class="sign-in-form">
+                            <h4 class="message"></h4>
+                            <div>
+                                <label for="">Họ tên <strong style="color: red;">*</strong>:</label>
+                                <input id="sign-in-email" class="fullName" type="text" placeholder="Họ và tên...">
+                            </div>
+                            <div>
+                                <label for="">SĐT <strong style="color: red;">*</strong>:</label>
+                                <input id="sign-in-email" type="text" class="phone" placeholder="Số điện thoại...">
+                            </div>
+
+                            <div>
+                                <label for="">Email <strong style="color: red;">*</strong>:</label>
+                                <input id="sign-in-email" type="email" class="email" placeholder="Email...">
+                            </div>
+
+                            <div>
+                                <label for="">Thành phố <strong style="color: red;">*</strong>:</label>
+                                <select id="sign-in-email" class="city">
+                                    <option hidden value="">Mời chọn</option>
+                                    <option>Hà Nội</option>
+                                    <option>Đà Nẵng</option>
+                                    <option>Hồ Chí Minh</option>
+                                    <option>Bắc Giang</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="">Quận/Huyện <strong style="color: red;">*</strong>:</label>
+                                <select id="sign-in-email" class="district">
+                                    <option hidden value="">Mời chọn</option>
+                                    <option>Lục Ngạn</option>
+                                    <option>Lục Nam</option>
+                                    <option>Tân Yên</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="">Phường/Xã <strong style="color: red;">*</strong>:</label>
+                                <select id="sign-in-email" class="ward">
+                                    <option hidden value="">Mời chọn</option>
+                                    <option>Hồng Giang</option>
+                                    <option>Kép 2</option>
+                                    <option>Chũ</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="">Số nhà <strong style="color: red;">*</strong>:</label>
+                                <input id="sign-in-email" class="houseNumber" type="text" placeholder="Số nhà, tên đường...">
+                            </div>
+                        </form>
+                        <div class="sign-in-bottom register-bottom">
+                            <button type="submit" class="sign-in-btn create-btn">Xác nhận</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row footer-top">
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Thông tin
+                        </h5>
+                        <ul class="footer-nav">
+                            <li>Giới thiệu</li>
+                            <li>Chuyện HONO</li>
+                            <li>Liên hệ</li>
+                            <li>Tuyển dụng</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Tài khoản
+                        </h5>
+                        <ul class="footer-nav">
+                            <li>Tài khoản của tôi</li>
+                            <li>Yêu thích</li>
+                            <li>Đăng kí câu hỏi</li>
+                            <li>Lịch sử mua hàng</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Cảm hứng
+                        </h5>
+                        <ul class="footer-nav">
+                            <li>Sản phẩm</li>
+                            <li>Ý tưởng và cảm hứng</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Về chúng tôi
+                        </h5>
+                        <ul class="footer-nav-aboutUs">
+                            <li>Hãy để lại email của bạn để nhận được những ý tưởng trang trí mới và những thông tin, ưu đãi từ HONO</li>
+                            <li>Địa chỉ: Địa chỉ của bạn. Email: demo@example.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row footer-center">
+                <div class="col l-3">
+                    <h2 class="footer-center-title">FOLLOW US</h2>
+                    <ul class="footer-center-social">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                    </ul>
+                </div>
+
+                <div class="col l-9">
+                    <h2 class="footer-center-title">Liên hệ với chúng tôi nhé!</h2>
+                    <div class="footer-center-form">
+                        <input type="Email" placeholder="Your email address...">
+                        <button type="submit">Gửi ngay!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer-bottom">
+                <div class="footer-bottom-text">
+                    <p class="coppyright">
+                        © 2021
+                        <a href="">Hono</a>
+                        . Made with
+                        <i class="fas fa-heart"></i>
+                        by
+                        <a href="">HasThemes</a>
+                    </p>
+                </div>
+                <img src="assets/img/payment.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/user/asmGĐ2-thiet ke trang web/js/products/showProducts.js"></script>
+<script src="/user/asmGĐ2-thiet ke trang web/js/category.js"></script>
+<script src="/user/asmGĐ2-thiet ke trang web/js/customer/pay.js"></script>
+</html>

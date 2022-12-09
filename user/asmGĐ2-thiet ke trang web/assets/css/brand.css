@@ -1,0 +1,96 @@
+.slider{
+    position: relative;
+    background: #fff6f1;
+    width: 100%;
+    height: 450px;
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-btn {
+    display: none;
+}
+
+#slider-menu-logo {
+    margin-top: 35px;
+}
+
+.slider-title {
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.slider-title h2 {
+    font-size: 4.5rem;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.slider-title h4 {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.slider-menu-btn {
+    margin-top: 40px;
+}
+
+
+/* Body */
+
+.brand-body {
+    margin-top: 50px;
+}
+
+.brand-body-left {
+    color: var(--text-color);
+}
+
+.body-left-img {
+    width: 100%;
+}
+
+.left-img-two {
+    margin-top: 50px;
+}
+
+.body-left-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 20px 0 20px 0;
+}
+
+.body-left-strong {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.body-left-text {
+    font-size: 1.5rem;
+    line-height: 20px;
+}
+
+.body-right-content-top h4 {
+    margin-top: 45px;
+}
+
+.body-right-img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.brand-body-right-logo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.brand-body-right-logo img {
+    width: 120px;
+    width: 120px;
+}

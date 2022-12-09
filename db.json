@@ -1,0 +1,346 @@
+{
+  "categories": [
+    {
+      "name": "Sofa",
+      "id": 1,
+      "parent_id": 0
+    },
+    {
+      "id": 2,
+      "name": "Giường",
+      "parent_id": 0
+    },
+    {
+      "id": 3,
+      "name": "Bàn",
+      "parent_id": 0
+    },
+    {
+      "id": 4,
+      "name": "Đèn",
+      "parent_id": 0
+    },
+    {
+      "name": "Ghế",
+      "id": 5
+    },
+    {
+      "name": "Bàn ăn gỗ",
+      "parent_id": 3,
+      "id": 6
+    },
+    {
+      "name": "Ghế gỗ 1",
+      "parent_id": 5,
+      "id": 8
+    },
+    {
+      "name": "Sofa góc",
+      "parent_id": 1,
+      "id": 10
+    },
+    {
+      "name": "Ghế thư giãn",
+      "parent_id": 1,
+      "id": 11
+    },
+    {
+      "name": "Armchair",
+      "parent_id": 1,
+      "id": 12
+    },
+    {
+      "name": "Ghế dài & đôn",
+      "parent_id": 1,
+      "id": 13
+    },
+    {
+      "name": "Bàn đầu giường",
+      "parent_id": 2,
+      "id": 14
+    },
+    {
+      "name": "Bàn trang điểm",
+      "parent_id": 2,
+      "id": 15
+    },
+    {
+      "name": "Tủ áo",
+      "parent_id": 2,
+      "id": 16
+    },
+    {
+      "name": "Tủ âm tường",
+      "parent_id": 2,
+      "id": 17
+    },
+    {
+      "name": "Ghế ăn",
+      "parent_id": 3,
+      "id": 18
+    },
+    {
+      "name": "Ghế bar",
+      "parent_id": 3,
+      "id": 19
+    },
+    {
+      "name": "Đèn treo tường",
+      "parent_id": 4,
+      "id": 20
+    },
+    {
+      "name": "Đèn học",
+      "parent_id": 4,
+      "id": 21
+    },
+    {
+      "name": "Đèn cổ",
+      "parent_id": 4,
+      "id": 22
+    }
+  ],
+  "products": [
+    {
+      "name": "Đèn xuất khẩu 2022 - E216",
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/banner/banner-style-1-img-1.jpg",
+      "detail": "Chân Inox màu gold, tay gỗ, bọc vải, nệm ngồi tháo rời",
+      "price": "28900000",
+      "cats": [
+        1,
+        11
+      ],
+      "id": 1
+    },
+    {
+      "name": "Nồi đun nước",
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/banner/banner-style-2-img-1.jpg",
+      "detail": "Sự đơn giản, tinh tế, sang trọng và không kém phần nổi bật của chiếc Sofa mang dòng máu bất diệt Scandivian này với lần lượt các phiên bản màu từ tối tới sáng bật Pastel sẽ mang lại các sắc màu không thể lẫn vào đâu và đa dạng cho từng không gian sống nhà bạn. Thiết kế vuông vức, thanh mảnh nhẹ nhàng là sự pha trộn giữa vững chãi và nhẹ nhàng là tất cả những yếu tố thiết yếu hội tụ ở chiếc sofa này.",
+      "price": "26900000",
+      "cats": [
+        1,
+        11
+      ],
+      "id": 2
+    },
+    {
+      "name": "Ghế nệm D12 mới",
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/banner/banner-style-2-img-2.jpg",
+      "detail": "Chân kim loại sơn, nệm bọc vải xanh, nệm ngồi & lưng rời",
+      "price": "26900000",
+      "cats": [
+        1,
+        13
+      ],
+      "id": 3
+    },
+    {
+      "name": "Ghế ăn 2022",
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/banner/banner-style-2-img-3.jpg",
+      "detail": "Sofa Jazz 3 chổ được bao bọc bởi lớp da bò cao cấp đem lại cảm giác mềm mại, êm ái, thư giãn tuyệt vời. Thiết kế hiện đại mang nét đẹp độc đáo từ hình khối thanh lịch, đường nét tinh tế là điểm cộng lớn nhất của sofa Jazz.",
+      "price": "58810000",
+      "cats": [
+        3,
+        18
+      ],
+      "id": 4
+    },
+    {
+      "name": "Đèn màu A72",
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/banner/banner-style-2-img-4.jpg",
+      "detail": "Khung gỗ MFC, bọc vải - 4 hộc kéo",
+      "price": "14630000",
+      "cats": [
+        2,
+        14
+      ],
+      "id": 5
+    },
+    {
+      "name": "Ghế hỗ trợ A22",
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/Featured products/default-1.jpg",
+      "detail": "Giường hộc kéo Penny 1m8 taupe với điểm nổi bật là bốn ngăn chứa đồ rộng thuận tiện cất những vật dụng trong phòng ngủ như gối, mền, drap hết sức gọn gàng. Chắc chắn sẽ là sự lựa chọn tối ưu cho không gian phòng ngủ hiện đại. Giường hộc kéo Penny có 2 kích thước 1m6 và 1m8, đa dạng màu sắc.",
+      "price": "15610000",
+      "cats": [
+        2,
+        15
+      ],
+      "id": 6
+    },
+    {
+      "name": "Loa đa dụng ",
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/Featured products/default-3.jpg",
+      "detail": "Gỗ màu nâu/xanh lá",
+      "price": "25700000",
+      "cats": [
+        1,
+        10
+      ],
+      "id": 8
+    },
+    {
+      "id": 9,
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/Featured products/default-5.jpg",
+      "name": "Bình trang trí",
+      "price": 51940000,
+      "detail": "Một thiết kế bàn làm việc đẳng cấp cho không gian làm việc của bạn, Maxine sử dụng chất liệu da trên bề mặt, khung gỗ hoàn thiện mdf veneer nâu trầm sang trọng tạo cảm giác thư thái, nhẹ nhàng",
+      "cats": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": 10,
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/Featured products/default-6.jpg",
+      "name": "Ghế bập bênh",
+      "price": 13650000,
+      "detail": "Không gian phòng làm việc sẽ trở nên ấm cúng và mới mẻ với bàn làm việc Pio. Phần hộc kéo rộng giúp cất giữ đồ đạc tối ưu, phần chân thon gọn tạo không gian thoáng đãng và thanh lịch.",
+      "cats": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": 11,
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/Featured products/default-7.jpg",
+      "name": "Ghế quầy bar",
+      "price": 36600000,
+      "detail": "Đế đèn hoàn thiện bằng đồng cổ - thủy tinh pha lê",
+      "cats": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": 12,
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/Featured products/default-8.jpg",
+      "name": "Ghế ghỗ ép C131",
+      "price": 4800000,
+      "detail": "Đèn Bàn Jasmin gold 52891K",
+      "cats": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": 13,
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/Featured products/default-9.jpg",
+      "name": "Bình sứ trung hoa",
+      "price": 17200000,
+      "detail": "Thủy tinh pha lê, hoàn thiện bằng niken, hình dạng 90% polyester, 10% bông",
+      "cats": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": 14,
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/Featured products/default-4 (1).jpg",
+      "name": "Siêu đa năng",
+      "price": 3799999,
+      "detail": "Khung kim loại",
+      "cats": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Đồng hồ treo tường",
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/Featured products/default-10.jpg",
+      "price": 12900000,
+      "detail": "Bàn ăn Miami được làm chính từ ván MDF chống ẩm cao cấp, phần dưới được làm từ gỗ Sồi trắng nhập khẩu từ Mỹ tạo nên sự chắc chắn cho sản phẩm. Đây là sự lựa chọn hoàn hảo cho không gian phòng ăn mang đậm phong cách Bắc Âu",
+      "cats": [
+        1,
+        10
+      ]
+    },
+    {
+      "name": "Đồng hồ black",
+      "image": "/user/asmGĐ2-thiet ke trang web/assets/img/Featured products/default-11.jpg",
+      "detail": "Bàn ăn Miami được làm chính từ ván MDF chống ẩm cao cấp, phần dưới được làm từ gỗ Sồi trắng nhập khẩu từ Mỹ tạo nên sự chắc chắn cho sản phẩm. Đây là sự lựa chọn hoàn hảo cho không gian phòng ăn mang đậm phong cách Bắc Âu",
+      "price": "1111111",
+      "cats": [
+        1,
+        10
+      ],
+      "id": 16
+    }
+  ],
+  "orders": [
+    {
+      "customer_name": "Trần Cương111",
+      "customer_address": "24 Tô Ký, Hồ Chí Minh111",
+      "customer_email": "cuongtt@gmail.com111",
+      "customer_phone": "0332573670",
+      "create_date": "2022-11-09",
+      "id": 1
+    },
+    {
+      "customer_name": "Trần Cương",
+      "customer_address": "24 Tô Ký, Hồ Chí Minh",
+      "customer_email": "cuongtt@gmail.com",
+      "customer_phone": "0332573670",
+      "create_date": "2022-11-09",
+      "id": 2
+    },
+    {
+      "customer_name": "11111",
+      "customer_address": "11111, Hồng Giang, Lục Ngạn, Đà Nẵng",
+      "customer_email": "11111@gmail.com",
+      "customer_phone": "11111",
+      "create_date": "10/14/2022",
+      "id": 3
+    }
+  ],
+  "order_detail": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "order_id": 1,
+      "product_id": 2,
+      "quantity": 3
+    },
+    {
+      "id": 3,
+      "order_id": 2,
+      "product_id": 3,
+      "quantity": 1
+    },
+    {
+      "order_id": 3,
+      "product_id": 2,
+      "quantity": 2,
+      "id": 4
+    },
+    {
+      "order_id": 4,
+      "product_id": 1,
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "order_id": 4,
+      "product_id": 3,
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "order_id": 4,
+      "product_id": 6,
+      "quantity": 5,
+      "id": 7
+    },
+    {
+      "order_id": 4,
+      "product_id": 9,
+      "quantity": 1,
+      "id": 8
+    }
+  ]
+}

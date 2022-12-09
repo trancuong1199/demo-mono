@@ -1,0 +1,107 @@
+.slider{
+    background: url('../brand/img/2-The-Brand_02.jpg') center center / cover no-repeat ;
+    width: 100%;
+    height: 450px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.local-body-place {
+    margin-top: 50px;
+}
+
+.body-place-btn {
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    background-color: transparent;
+    transition: ease-in .4s;
+    border: 1px solid #000;
+    margin-top: 25px;
+}
+
+.body-place-btn:hover {
+    background-color: var(--main-color);
+    color: var(--white-color);
+    cursor: pointer;
+    border: none;
+    transition: ease-in .3s;
+}
+
+.local-body-map {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.map {
+    width: 100%;
+}
+
+.map-info {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 99%;
+    padding: 30px;
+}
+
+.map-info-country {
+    margin-top: 0;
+}
+
+.map-info-list {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.map-info-list li {
+    list-style: none;
+    margin-top: 10px;
+    transition: ease-out .4s;
+}
+
+.map-info-list li:hover {
+    color: var(--main-color);
+    cursor: pointer;
+    transition: ease-out .4s;
+}
+
+.info-list-icon {
+    margin-right: 5px;
+    font-size: 1.3rem;
+}
+
+.map-info-social {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.map-info-social li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    background-color: #727272;
+    border-radius: 50%;
+    margin-right: 15px; 
+    transition: ease-out .4s;
+}
+
+.map-info-social li:hover {
+    background-color: var(--main-color);
+    cursor: pointer;
+    transition: ease-out .4s;
+}
+
+.footer {
+    margin-top: 80px;
+}

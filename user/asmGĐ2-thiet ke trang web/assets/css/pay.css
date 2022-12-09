@@ -1,0 +1,37 @@
+.sign-in-title {
+    left: 0px;
+    font-size: 2rem;
+}
+
+#sign-in-email {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.sign-in-form label {
+    width: 115px;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.register-separate::after {
+    height: 75%
+}
+
+.create-btn {
+    left: 0px;
+}
+
+.sign-in-bottom {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.logo-connect:hover {
+    color: #000;
+}
+
+.message {
+    color: red;
+    margin-bottom: 16px;
+}

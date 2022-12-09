@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo__HoNo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="./assets/fonts/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="grid wide">
+        <div class="row">
+            <header class="header m-12">
+                <nav class="header-navbar">
+                    <h1 class="header-name">HONO</h1>
+
+                    <!-- Header options -->
+
+                    <div class="header-options hide-on-mobile-table">
+                        <div class="header-options-choose text-hover header-options-home">
+                            Trang chủ
+                        </div>
+                        <div class="header-options-choose text-hover header-options-shop">
+                            Sản phẩm
+                            <i class="ti-angle-down"></i>
+                            <div class="header-options-shop-product">
+                                <div class="header-shop-product-body">
+                                </div>
+
+                                <div class="header-options-shop-img">
+                                    <img src="./assets/img/menu-banner.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="header-options-choose text-hover header-options-blog">
+                            <a href="brand.html" class="index-connect">Giới thiệu</a>
+
+                        </div>
+                        <div class="header-options-choose text-hover header-options-pages">
+                            Bộ sưu tập
+                        </div>
+                        <div class="header-options-choose text-hover header-options-about">
+                            <a href="local.html" class="index-connect">Góc cảm hứng</a>
+                        </div>
+                        <div class="header-options-choose text-hover header-options-contact">
+                            <!-- <a href="sign-up.html" class="index-connect"></a> -->
+                        </div>
+                    </div>
+
+                    <!-- Header Icon -->
+
+                    <div class="header-icon">
+
+                        <!-- Icon heart -->
+                        <div class="text-hover header-icon-heart">
+                            <label for="nav-heart-input"
+                                class="text-hover ti-heart hide-on-mobile-table hide-on-PC-low"></label>
+                            <label for="nav-heart-input"
+                                class="header-icon-heart-notice hide-on-mobile-table hide-on-PC-low">3</label>
+
+                            <input type="checkbox" hidden name="" class="heart-checkbox" id="nav-heart-input">
+
+                            <label for="nav-heart-input" class="icon-heart-overlay"></label>
+                            <div class="icon-heart-WishList">
+                                <label for="nav-heart-input" class="icon-heart-product-close ti-close"></label>
+                                <div class="icon-heart-WishList-father">
+                                    <h2>Yêu thích</h2>
+                                    <div class="icon-heart-product">
+                                        <img class="icon-heart-product-img" src="./assets/img/default-1.jpg" alt="">
+
+                                        <ul class="icon-heart-product-description">
+                                            <li class="product-description-name">Ghế 1</li>
+                                            <li class="product-description-price">1 x 4.900.000đ</li>
+                                        </ul>
+                                        <i class="icon-heart-product-bin ti-trash"></i>
+                                    </div>
+
+                                    <div class="icon-heart-product">
+                                        <img class="icon-heart-product-img" src="./assets/img/default-1 (1).jpg" alt="">
+
+                                        <ul class="icon-heart-product-description">
+                                            <li class="product-description-name">Nước hoa</li>
+                                            <li class="product-description-price">1 x 4.900.000đ</li>
+                                        </ul>
+                                        <i class="icon-heart-product-bin ti-trash"></i>
+                                    </div>
+
+                                    <div class="icon-heart-product">
+                                        <img class="icon-heart-product-img" src="./assets/img/default-1 (2).jpg" alt="">
+
+                                        <ul class="icon-heart-product-description">
+                                            <li class="product-description-name">Camera</li>
+                                            <li class="product-description-price">1 x 4.900.000đ</li>
+                                        </ul>
+                                        <i class="icon-heart-product-bin ti-trash"></i>
+                                    </div>
+                                </div>
+
+                                <button class="heart-WishList-btn">Xem chi tiết</button>
+                            </div>
+                        </div>
+
+                        <!-- Icon bag -->
+
+                        <div class="text-hover header-icon-bag">
+                            <label for="nav-bag-input"
+                                class="text-hover ti-bag hide-on-mobile-table hide-on-PC-low"></label>
+                            <label for="nav-bag-input"
+                                class="header-icon-bag-notice hide-on-mobile-table hide-on-PC-low">0</label>
+
+                            <input type="checkbox" hidden name="" class="bag-checkbox" id="nav-bag-input">
+                            <label for="nav-bag-input" class="icon-bag-overlay"></label>
+                            <div class="icon-bag-Shopping">
+                                <label for="nav-bag-input" class="icon-bag-product-close ti-close"></label>
+                                <h2>Giỏ hàng</h2>
+                                <div class="icon-bag-Shopping-father">
+                                </div>
+                                <div class="bag-sum">
+                                </div>
+
+
+                                <div class="bag-btn">
+                                    <a href="viewCart.html"><button class="bag-WishList-btn">Chi tiết giỏ hàng</button></a>
+                                    <button class="bag-WishList-btn">Yêu thích</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Icon search -->
+                        <div class="text-hover header-icon-search">
+                            <label for="nav-search-input"
+                                class="text-hover ti-search hide-on-mobile-table hide-on-PC-low"></label>
+                            <input type="checkbox" hidden name="" class="search-checkbox" id="nav-search-input">
+                            <div class="icon-search-click">
+                                <label for="nav-search-input" class="icon-search-close ti-close"></label>
+                                <input type="search" placeholder="type keyword(s) here" class="icon-search-input">
+                                <button class="icon-search-btn">Tìm kiếm</button>
+                            </div>
+                        </div>
+
+                        <!-- Icon bars -->
+                        <label for="nav-bars-input" class="header-icon-bars">
+                            <label for="nav-bars-input" class="text-hover ti-menu"></label>
+                            <input type="checkbox" hidden name="" class="bars-checkbox" id="nav-bars-input">
+                            <label for="nav-bars-input" class="icon-bars-overlay"></label>
+                            <div class="icon-bars-Info">
+                                <label for="nav-bars-input" class="icon-bars-Info-close ti-close"></label>
+                                <div class="icon-bars-Info-Contact">
+                                    <h1>HONO</h1>
+                                    <div class="Info-Contact-address">
+                                        <span>Địa chỉ: Quận 12, Hồ Chí Minh</span>
+                                        <span>Email: cuongttph18894@fpt.edu</span>
+                                        <span>Số điện thoại: 0353117498</span>
+                                    </div>
+                                    <div class="Info-Contact-social">
+                                        <li>
+                                            <i class="fab fa-facebook-f"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-twitter"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-instagram"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </li>
+                                    </div>
+                                    <ul class="Info-Contact-text">
+                                        <a style="text-decoration: none;" href="sign-up.html">
+                                            <li>Đăng nhập</li>
+                                        </a>
+                                        <a style="text-decoration: none;" href="sign-up.html">
+                                            <li>Đăng kí</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <!-- Slider -->
+    <div class="slider">
+        <div class="slider-content">
+            <h4 class="subtitle">Hàng tháng 12</h4>
+            <h2 class="title">Đẹp nhất trong<br>mùa đông</h2>
+            <button class="slider-content-btn">Mua ngay</button>
+        </div>
+        <div class="slider-icon hide-on-mobile">
+            <i class="slider-icon-prev-btn ti-angle-left"></i>
+            <i class="slider-icon-next-btn ti-angle-right"></i>
+        </div>
+        <div class="slider-button hide-on-mobile">
+            <button class="slider-button-circle"></button>
+            <button class="slider-button-circle"></button>
+        </div>
+    </div>
+    <!-- Body -->
+    <div class="body">
+        <!-- Service Wrapper -->
+        <div class="service-wrapper">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 m-6 c-12">
+                        <div class="service-promo">
+                            <div class="service-promo-img">
+                                <img src="./assets/img/body1/service-promo-1.png" alt="">
+                            </div>
+                            <div class="service-promo-content">
+                                <h3 class="service-promo-content-title">Miễn phí vận chuyển</h3>
+                                <p>Nếu đơn hàng có vấn đề, sẽ miễn phí vận chuyển!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-12">
+                        <div class="service-promo">
+                            <div class="service-promo-img">
+                                <img src="./assets/img/body1/service-promo-2.png" alt="">
+                            </div>
+                            <div class="service-promo-content">
+                                <h3 class="service-promo-content-title">Hoàn tiền trong vòng 30 ngày</h3>
+                                <p>Nếu phát hiện sản phẩm nhái, hoàn tiền 100%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-12">
+                        <div class="service-promo">
+                            <div class="service-promo-img">
+                                <img src="./assets/img/body1/service-promo-3.png" alt="">
+                            </div>
+                            <div class="service-promo-content">
+                                <h3 class="service-promo-content-title">Thanh toán tiện lợi</h3>
+                                <p>Có thể thanh toán qua bất kì phương thức nào.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-12">
+                        <div class="service-promo">
+                            <div class="service-promo-img">
+                                <img src="./assets/img/body1/service-promo-4.png" alt="">
+                            </div>
+                            <div class="service-promo-content">
+                                <h3 class="service-promo-content-title">Khách hàng trung thành</h3>
+                                <p>Được tặng thẻ khuyến mãi 30% cho đơn hàng tiếp theo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Body banner -->
+        <div class="body-banner">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6">
+                        <div class="hover-img body-banner-big">
+                            <!-- <div class="banner-big-img">
+                                <img src="./assets/img/banner/banner-style-1-img-1.jpg" alt="">
+                            </div>
+                            <div class="banner-big-content">
+                                <h2 class="banner-big-content-title">Đèn xuất khẩu 2022 - E216</h2>
+                                <h3 class="banner-big-content-subtitle">Thiết kế thủ công</h3>
+                                <div class="banner-big-btn">
+                                    <button class="banner-big-button">
+                                        Xem ngay
+                                        <i class="banner-big-btn-icon ti-arrow-right"></i>
+                                    </button>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="col l-6">
+                        <div class="row body-banner-big-right">
+                            <!-- <div class="col l-6 m-12">
+                                <div class="hover-img body-banner-small-1">
+                                    <img src="./assets/img/banner/banner-style-2-img-1.jpg" alt=""
+                                        class="banner-small-img">
+                                    <div class="body-banner-small-text">
+                                        <h3 class="banner-small-title hide-on-PC-low">Nồi<br>đun nước</h3>
+                                        <h4 class="banner-small-buy">Mua ngay</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6 m-12">
+                                <div class="hover-img body-banner-small-1">
+                                    <img src="./assets/img/banner/banner-style-2-img-2.jpg" alt=""
+                                        class="banner-small-img">
+                                    <div class="body-banner-small-text">
+                                        <h3 class="banner-small-title hide-on-PC-low">Ghế<br>tiện lợi</h3>
+                                        <h4 class="banner-small-buy">Mua ngay</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6 m-12">
+                                <div class="hover-img body-banner-small-1">
+                                    <img src="./assets/img/banner/banner-style-2-img-3.jpg" alt=""
+                                        class="banner-small-img">
+                                    <div class="body-banner-small-text">
+                                        <h3 class="banner-small-title hide-on-PC-low">Ghế ăn<br>2022</h3>
+                                        <a href="product.html" class="index-connect"><h4 class="banner-small-buy">Mua ngay</h4></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6 m-12">
+                                <div class="hover-img body-banner-small-1">
+                                    <img src="./assets/img/banner/banner-style-2-img-4.jpg" alt=""
+                                        class="banner-small-img">
+                                    <div class="body-banner-small-text">
+                                        <h3 class="banner-small-title hide-on-PC-low">Đèn màu<br>A372</h3>
+                                        <h4 class="banner-small-buy">Mua ngay</h4>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div id="toast"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- New products -->
+        <div class="body-products-new">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12">
+                        <div class="products-new-content">
+                            <h2 class="new-content-title">Mẫu hàng mới tháng 9</h2>
+                            <p class="new-content-subtitle">Đặt hàng ngay để nhận ưu đãi 30%</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-12">
+                        <div class="row product-img">
+                            <!-- <div class="products-new-child">
+                                <div class="products-new-img">
+                                    <img src="./assets/img/Featured products/default-1.jpg" alt="">
+                                    <div class="products-new-img-sale">sale</div>
+                                    <div class="products-new-img-action">
+                                        <div class="new-img-action-add add-to-cart">Thêm giỏ hàng</div>
+                                        <div class="new-img-action-icon">
+                                            <i class="ti-search"></i>
+                                            <i class="ti-heart"></i>
+                                            <i class="ti-control-shuffle"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products-new-info">
+                                    <div class="products-new-info-name">
+                                        <h2 class="new-info-name-title">Ghế hỗ trợ A222</h2>
+                                    </div>
+                                    <div class="products-new-info-bottom">
+                                        <ul class="new-info-name-star">
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                        </ul>
+                                        <div class="products-new-info-price-left">
+                                            <div class="products-new-info-price-old">1.600.000đ</div>
+                                            <div class="products-new-info-price-new">900.000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products-new-child">
+                                <div class="products-new-img">
+                                    <img src="./assets/img/Featured products/default-3.jpg" alt="">
+                                    <div class="products-new-img-sale">sale</div>
+                                    <div class="products-new-img-action">
+                                        <div class="new-img-action-add add-to-cart">Thêm giỏ hàng</div>
+                                        <div class="new-img-action-icon">
+                                            <i class="ti-search"></i>
+                                            <i class="ti-heart"></i>
+                                            <i class="ti-control-shuffle"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products-new-info">
+                                    <div class="products-new-info-name">
+                                        <h2 class="new-info-name-title">Loa đa năng</h2>
+                                    </div>
+                                    <div class="products-new-info-bottom">
+                                        <ul class="new-info-name-star">
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                        </ul>
+
+                                        <div class="products-new-info-price-left">500.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products-new-child">
+                                <div class="products-new-img">
+                                    <img src="./assets/img/Featured products/default-5.jpg" alt="">
+                                    <div class="products-new-img-sale">sale</div>
+                                    <div class="products-new-img-action">
+                                        <div class="new-img-action-add add-to-cart">Thêm giỏ hàng</div>
+                                        <div class="new-img-action-icon">
+                                            <i class="ti-search"></i>
+                                            <i class="ti-heart"></i>
+                                            <i class="ti-control-shuffle"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products-new-info">
+                                    <div class="products-new-info-name">
+                                        <h2 class="new-info-name-title">Bình trang trí</h2>
+                                    </div>
+                                    <div class="products-new-info-bottom">
+                                        <ul class="new-info-name-star">
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                        </ul>
+
+                                        <div class="products-new-info-price-left">600.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products-new-child">
+                                <div class="products-new-img">
+                                    <img src="./assets/img/Featured products/default-6.jpg" alt="">
+                                    <div class="products-new-img-sale">sale</div>
+                                    <div class="products-new-img-action">
+                                        <div class="new-img-action-add add-to-cart">Thêm giỏ hàng</div>
+                                        <div class="new-img-action-icon">
+                                            <i class="ti-search"></i>
+                                            <i class="ti-heart"></i>
+                                            <i class="ti-control-shuffle"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products-new-info">
+                                    <div class="products-new-info-name">
+                                        <h2 class="new-info-name-title">Ghế bập bênh</h2>
+                                    </div>
+                                    <div class="products-new-info-bottom">
+                                        <ul class="new-info-name-star">
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                        </ul>
+                                        <div class="products-new-info-price-left">
+                                            <div class="products-new-info-price-old">3.000.000đ</div>
+                                            <div class="products-new-info-price-new">2.500.000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products-new-child">
+                                <div class="products-new-img">
+                                    <img src="./assets/img/Featured products/default-7.jpg" alt="">
+                                    <div class="products-new-img-sale">sale</div>
+                                    <div class="products-new-img-action">
+                                        <div class="new-img-action-add add-to-cart">Thêm giỏ hàng</div>
+                                        <div class="new-img-action-icon">
+                                            <i class="ti-search"></i>
+                                            <i class="ti-heart"></i>
+                                            <i class="ti-control-shuffle"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products-new-info">
+                                    <div class="products-new-info-name">
+                                        <h2 class="new-info-name-title">Ghế quầy bar</h2>
+                                    </div>
+                                    <div class="products-new-info-bottom">
+                                        <ul class="new-info-name-star">
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                        </ul>
+                                        <div class="products-new-info-price-left">4.000.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products-new-child">
+                                <div class="products-new-img">
+                                    <img src="./assets/img/Featured products/default-8.jpg" alt="">
+                                    <div class="products-new-img-sale">sale</div>
+                                    <div class="products-new-img-action">
+                                        <div class="new-img-action-add add-to-cart">Thêm giỏ hàng</div>
+                                        <div class="new-img-action-icon">
+                                            <i class="ti-search"></i>
+                                            <i class="ti-heart"></i>
+                                            <i class="ti-control-shuffle"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products-new-info">
+                                    <div class="products-new-info-name">
+                                        <h2 class="new-info-name-title">Ghế ghỗ ép B121</h2>
+                                    </div>
+                                    <div class="products-new-info-bottom">
+                                        <ul class="new-info-name-star">
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                        </ul>
+                                        <div class="products-new-info-price-left">
+                                            <div class="products-new-info-price-old">700.000đ</div>
+                                            <div class="products-new-info-price-new">400.000đ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products-new-child">
+                                <div class="products-new-img">
+                                    <img src="./assets/img/Featured products/default-9.jpg" alt="">
+                                    <div class="products-new-img-sale">sale</div>
+                                    <div class="products-new-img-action">
+                                        <div class="new-img-action-add add-to-cart">Thêm giỏ hàng</div>
+                                        <div class="new-img-action-icon">
+                                            <i class="ti-search"></i>
+                                            <i class="ti-heart"></i>
+                                            <i class="ti-control-shuffle"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products-new-info">
+                                    <div class="products-new-info-name">
+                                        <h2 class="new-info-name-title">Bình sứ trung hoa</h2>
+                                    </div>
+                                    <div class="products-new-info-bottom">
+                                        <ul class="new-info-name-star">
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                        </ul>
+                                        <div class="products-new-info-price-left">8.000.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products-new-child">
+                                <div class="products-new-img">
+                                    <img src="./assets/img/Featured products/default-4 (1).jpg" alt="">
+                                    <div class="products-new-img-sale">sale</div>
+                                    <div class="products-new-img-action">
+                                        <div class="new-img-action-add add-to-cart">Thêm giỏ hàng</div>
+                                        <div class="new-img-action-icon">
+                                            <i class="ti-search"></i>
+                                            <i class="ti-heart"></i>
+                                            <i class="ti-control-shuffle"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products-new-info">
+                                    <div class="products-new-info-name">
+                                        <h2 class="new-info-name-title">Siêu đa năng</h2>
+                                    </div>
+                                    <div class="products-new-info-bottom">
+                                        <ul class="new-info-name-star">
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li class="star-fill">
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                        </ul>
+
+                                        <div class="products-new-info-price-left">800.000đ</div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <div class="product-icon">
+                            <i class="product-icon-prev-btn ti-arrow-left"></i>
+                            <i class="product-icon-next-btn ti-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner section -->
+        <div class="body-banner-section">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12 c-12">
+                        <div class="hover-img banner-section-item">
+                            <div class="banner-section-img">
+                                <img src="./assets/img/banner-style-3-img-1.jpg" alt="">
+                            </div>
+                            <div class="banner-section-content">
+                                <h2 class="banner-section-info-title">Nội thất hiện đại</h2>
+                                <h4 class="banner-section-info-subtitle">Chúng tôi thiết kế hoàn toàn bằng thủ công</h4>
+                                <a href="brand.html">
+                                    <button class="banner-section-button">
+                                        Xem ngay
+                                        <i class="banner-section-btn-icon ti-arrow-right"></i>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Best Seller -->
+        <div class="body-best-seller">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12">
+                        <div class="best-seller-content">
+                            <h2 class="best-seller-content-title">Bán chạy nhất</h2>
+                            <p class="best-seller-content-subtitle">Những món hàng bán chạy nhất trong quý I</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row best-seller-product">
+                    <!-- <div class="col l-3">
+                        <div class="seller-product-child">
+                            <div class="seller-product-img">
+                                <img src="./assets/img/Featured products/default-10.jpg" alt="">
+                                <div class="seller-product-action">
+                                    <div class="seller-product-action-add add-to-cart">Thêm giỏ hàng</div>
+                                    <div class="seller-product-action-icon">
+                                        <i class="ti-search"></i>
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="seller-product-info">
+                                <div class="seller-product-info-name">
+                                    <h2 class="seller-product-name-title">Đồng hồ treo tường</h2>
+                                </div>
+                                <div class="seller-product-info-bottom">
+                                    <ul class="seller-product-name-star">
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="seller-product-info-price-left">
+                                        <div class="seller-product-info-price-new">2.000.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="seller-product-child">
+                            <div class="seller-product-img">
+                                <img src="./assets/img/Featured products/default-9.jpg" alt="">
+                                <div class="seller-product-action">
+                                    <div class="seller-product-action-add add-to-cart">Thêm giỏ hàng</div>
+                                    <div class="seller-product-action-icon">
+                                        <i class="ti-search"></i>
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="seller-product-info">
+                                <div class="seller-product-info-name">
+                                    <h2 class="seller-product-name-title">Bình trang trí</h2>
+                                </div>
+                                <div class="seller-product-info-bottom">
+                                    <ul class="seller-product-name-star">
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="seller-product-info-price-left">
+                                        <div class="seller-product-info-price-new">500.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="seller-product-child">
+                            <div class="seller-product-img">
+                                <img src="./assets/img/Featured products/default-11.jpg" alt="">
+                                <div class="seller-product-action">
+                                    <div class="seller-product-action-add add-to-cart">Thêm giỏ hàng</div>
+                                    <div class="seller-product-action-icon">
+                                        <i class="ti-search"></i>
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="seller-product-info">
+                                <div class="seller-product-info-name">
+                                    <h2 class="seller-product-name-title">Đồng hồ trang trí</h2>
+                                </div>
+                                <div class="seller-product-info-bottom">
+                                    <ul class="seller-product-name-star">
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="seller-product-info-price-left">
+                                        <div class="seller-product-info-price-new">499.000</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-3">
+                        <div class="seller-product-child">
+                            <div class="seller-product-img">
+                                <img src="./assets/img/Featured products/default-6.jpg" alt="">
+                                <div class="seller-product-action">
+                                    <div class="seller-product-action-add add-to-cart">Thêm giỏ hàng</div>
+                                    <div class="seller-product-action-icon">
+                                        <i class="ti-search"></i>
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="seller-product-info">
+                                <div class="seller-product-info-name">
+                                    <h2 class="seller-product-name-title">Ghế bập bênh</h2>
+                                </div>
+                                <div class="seller-product-info-bottom">
+                                    <ul class="seller-product-name-star">
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li class="star-fill">
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li">
+                                            <i class="fas fa-star"></i>
+                                            </li>
+                                    </ul>
+                                    <div class="seller-product-info-price-left">
+                                        <div class="seller-product-info-price-new">2.000.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="product-icon">
+                        <i class="product-icon-prev-btn ti-arrow-left"></i>
+                        <i class="product-icon-next-btn ti-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Highlights -->
+        <div class="body-img-hightlights">
+            <div class="grid">
+                <div class="row no-gutters">
+                    <div class="l-3 m-12">
+                        <div class="hover-img img-highlights">
+                            <img src="./assets/img/highlights/banner-style-4-img-1.jpg" alt="">
+                            <div class="img-highlights-content">
+                                <div class="img-highlights-info">
+                                    <h3 class="img-highlights-info-name">Ghế A21</h3>
+                                    <h4 class="img-highlights-info-quantity">25 sản phẩm</h4>
+                                </div>
+                                <div class="img-highlights-btn">
+                                    <i class="img-highlights-next-icon ti-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="l-3 m-12">
+                        <div class="hover-img img-highlights">
+                            <img src="./assets/img/highlights/banner-style-4-img-2.jpg" alt="">
+                            <div class="img-highlights-content">
+                                <div class="img-highlights-info">
+                                    <h3 class="img-highlights-info-name">Ghế sofa</h3>
+                                    <h4 class="img-highlights-info-quantity">11 Sản phẩm</h4>
+                                </div>
+                                <div class="img-highlights-btn">
+                                    <i class="img-highlights-next-icon ti-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="l-3 m-12">
+                        <div class="hover-img img-highlights">
+                            <img src="./assets/img/highlights/banner-style-4-img-3.jpg" alt="">
+                            <div class="img-highlights-content">
+                                <div class="img-highlights-info">
+                                    <h3 class="img-highlights-info-name">Đèn trần C55</h3>
+                                    <h4 class="img-highlights-info-quantity">19 Sản phẩm</h4>
+                                </div>
+                                <div class="img-highlights-btn">
+                                    <i class="img-highlights-next-icon ti-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="l-3 m-12">
+                        <div class="hover-img img-highlights">
+                            <img src="./assets/img/highlights/banner-style-4-img-4.jpg" alt="">
+                            <div class="img-highlights-content">
+                                <div class="img-highlights-info">
+                                    <h3 class="img-highlights-info-name">Ghế gỗ G55</h3>
+                                    <h4 class="img-highlights-info-quantity">30 Sản phẩm</h4>
+                                </div>
+                                <div class="img-highlights-btn">
+                                    <i class="img-highlights-next-icon ti-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Furniture -->
+        <div class="body-furniture">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12">
+                        <div class="products-new-content">
+                            <h2 class="new-content-title">Mẫu thiết kế nhà đẹp</h2>
+                            <p class="new-content-subtitle">Hãy đọc và xem những mẫu hàng mà chúng tôi đã thiết kế</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col l-4">
+                        <div class="body-furniture-child">
+                            <div class="body-furniture-child-img-box">
+                                <img src="assets/img/furniture/blog-grid-home-1-img-1.jpg" alt=""
+                                    class="body-furniture-child-img">
+                            </div>
+                            <div class="body-furniture-child-content">
+                                <h3 class="body-furniture-child-content-name">Phòng ngủ</h3>
+                                <p class="body-furniture-child-content-title">Phòng khách là không gian chính của ngôi nhà, là nơi sum họp gia đình</p>
+                            </div>
+                            <div class="body-furniture-child-more">
+                                <a href="brand.html" class="body-furniture-child-more">
+                                    <span class="body-furniture-child-more-text">
+                                        Đọc thêm
+                                        <li class="ti-arrow-right"></li>
+                                    </span>
+                                </a>
+                                <span class="body-furniture-child-more-time">Tháng 5</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4">
+                        <div class="body-furniture-child">
+                            <div class="body-furniture-child-img-box">
+                                <img src="assets/img/furniture/blog-grid-home-1-img-2.jpg" alt=""
+                                    class="body-furniture-child-img">
+                            </div>
+                            <div class="body-furniture-child-content">
+                                <h3 class="body-furniture-child-content-name">Phòng bếp</h3>
+                                <p class="body-furniture-child-content-title">Mang lại những nguồn cảm hứng và nét sinh động cho không gian</p>
+                            </div>
+                            <div class="body-furniture-child-more">
+                                <a href="brand.html" class="body-furniture-child-more">
+                                    <span class="body-furniture-child-more-text">
+                                        Đọc thêm
+                                        <li class="ti-arrow-right"></li>
+                                    </span>
+                                </a>
+                                <span class="body-furniture-child-more-time">Tháng 11</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4">
+                        <div class="body-furniture-child">
+                            <div class="body-furniture-child-img-box">
+                                <img src="assets/img/furniture/blog-grid-home-1-img-3.jpg" alt=""
+                                    class="body-furniture-child-img">
+                            </div>
+                            <div class="body-furniture-child-content">
+                                <h3 class="body-furniture-child-content-name">Phòng khách</h3>
+                                <p class="body-furniture-child-content-title">Những mẫu phòng ngủ của Nhà Xinh mang đến cảm giác ấm cúng, gần gũi và thoải mái</p>
+                            </div>
+                            <div class="body-furniture-child-more">
+                                <a href="brand.html" class="body-furniture-child-more">
+                                    <span class="body-furniture-child-more-text">
+                                        Đọc thêm
+                                        <li class="ti-arrow-right"></li>
+                                    </span>
+                                </a>
+                                <span class="body-furniture-child-more-time">Tháng 7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="furniture-icon">
+                <i class="furniture-icon-prev-btn ti-arrow-left"></i>
+                <i class="furniture-icon-next-btn ti-arrow-right"></i>
+            </div>
+
+        </div>
+
+        <!-- Template -->
+        <div class="body-template">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="l-2">
+                        <div class="hover-img body-template-img">
+                            <img src="assets/img/honotemplate/banner-style-3-img-1.jpg" class="body-template-img-child"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="l-2">
+                        <div class="hover-img body-template-img">
+                            <img src="assets/img/honotemplate/instagram-2.jpg" class="body-template-img-child" alt="">
+                        </div>
+                    </div>
+                    <div class="l-2">
+                        <div class="hover-img body-template-img">
+                            <img src="assets/img/honotemplate/instagram-3.jpg" class="body-template-img-child" alt="">
+                        </div>
+                    </div>
+                    <div class="l-2">
+                        <div class="hover-img body-template-img">
+                            <img src="assets/img/honotemplate/instagram-4.jpg" class="body-template-img-child" alt="">
+                        </div>
+                    </div>
+                    <div class="l-2">
+                        <div class="hover-img body-template-img">
+                            <img src="assets/img/honotemplate/instagram-5.jpg" class="body-template-img-child" alt="">
+                        </div>
+                    </div>
+                    <div class="l-2">
+                        <div class="hover-img body-template-img">
+                            <img src="assets/img/honotemplate/instagram-6.jpg" class="body-template-img-child" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body-template-box">
+                <p>Mẫu Hono</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row footer-top">
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Thông tin
+                        </h5>
+                        <ul class="footer-nav">
+                            <li>Giới thiệu</li>
+                            <li>Chuyện HONO</li>
+                            <li>Liên hệ</li>
+                            <li>Tuyển dụng</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Tài khoản
+                        </h5>
+                        <ul class="footer-nav">
+                            <li>Tài khoản của tôi</li>
+                            <li>Yêu thích</li>
+                            <li>Đăng kí câu hỏi</li>
+                            <li>Lịch sử mua hàng</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Cảm hứng
+                        </h5>
+                        <ul class="footer-nav">
+                            <li>Sản phẩm</li>
+                            <li>Ý tưởng và cảm hứng</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Về chúng tôi
+                        </h5>
+                        <ul class="footer-nav-aboutUs">
+                            <li>Hãy để lại email của bạn để nhận được những ý tưởng trang trí mới và những thông tin, ưu đãi từ HONO</li>
+                            <li>Địa chỉ: Địa chỉ của bạn. Email: demo@example.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row footer-center">
+                <div class="col l-3">
+                    <h2 class="footer-center-title">FOLLOW US</h2>
+                    <ul class="footer-center-social">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                    </ul>
+                </div>
+
+                <div class="col l-9">
+                    <h2 class="footer-center-title">Liên hệ với chúng tôi nhé!</h2>
+                    <div class="footer-center-form">
+                        <input type="Email" placeholder="Your email address...">
+                        <button type="submit">Gửi ngay!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer-bottom">
+                <div class="footer-bottom-text">
+                    <p class="coppyright">
+                        © 2021
+                        <a href="">Hono</a>
+                        . Made with
+                        <i class="fas fa-heart"></i>
+                        by
+                        <a href="">HasThemes</a>
+                    </p>
+                </div>
+                <img src="assets/img/payment.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/user/asmGĐ2-thiet ke trang web/js/products/showProducts.js"></script>
+<script src="/user/asmGĐ2-thiet ke trang web/js/category.js"></script>
+</html>

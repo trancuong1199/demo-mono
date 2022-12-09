@@ -1,0 +1,95 @@
+/* Mobile and Table */
+
+@media (max-width: 1023px) {
+    .hide-on-mobile-table {
+        display: none;
+    }
+
+    .body-template-box {
+        display: none;
+    }
+}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-table {
+        display: none;
+    }
+
+    .banner-section-img img {
+        height: 480px;
+        width: 690px;
+        flex-shrink: 0;
+    }
+
+    .body-banner-small-text {
+        margin-left: 250px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .banner-big-content-title {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 20px;   
+        width: 200px;
+        margin-top: 15px;
+    }
+
+    .banner-big-button {
+        margin-top: 0;
+        height: 30px;
+        width: 130px;
+    }
+
+    .row {
+        margin-left: 0;
+    }
+
+    .banner-section-img img {
+        height: 415px;
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .banner-section-info-title {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .banner-section-button {
+        height: 35px;
+        width: 150px;
+    }
+
+    .body-banner-small-1 {
+        margin-left: 35px;
+    }
+}
+
+/* > PC low resolution */
+
+@media (min-width: 1024px) and (max-width: 1480px) { 
+    .hide-on-PC-low {
+        display: none;
+    }
+
+    .header-options-choose {
+        padding: 0;
+    }
+
+    .banner-big-content-title {
+        margin-left: -25px;
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 47px;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/brand.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/viewCart.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/responsive-main.css">
+    <link rel="stylesheet" href="./assets/css/listCate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="./assets/fonts/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="grid wide">
+        <div class="row">
+            <header class="header m-12">
+                <nav class="header-navbar">
+                    <a href="index.html" class="logo-connect"><h1 class="header-name">HONO</h1></a>
+
+                    <!-- Header options -->
+
+                    <div class="header-options hide-on-mobile-table">
+                        <div class="header-options-choose text-hover header-options-home">
+                            <a href="index.html" class="index-connect">Trang chủ</a>
+                        </div>
+                        <div class="header-options-choose text-hover header-options-shop">
+                            Sản phẩm
+                            <i class="ti-angle-down"></i>
+                            <div class="header-options-shop-product">
+                                <div class="header-shop-product-body">
+                                    
+                                </div>
+
+                                <div class="header-options-shop-img">
+                                    <img src="./assets/img/menu-banner.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="header-options-choose text-hover header-options-blog">
+                            Giới thiệu
+
+                        </div>
+                        <div class="header-options-choose text-hover header-options-pages">
+                            Bộ sưu tập
+                        </div>
+                        <div class="header-options-choose text-hover header-options-about">
+                            <a href="local.html" class="index-connect">Góc cảm hứng</a>
+                        </div>
+                        <div class="header-options-choose text-hover header-options-contact">
+                            <!-- <a href="sign-up.html" class="index-connect">SIGN IN</a> -->
+                        </div>
+                    </div>
+
+                    <!-- Header Icon -->
+
+                    <div class="header-icon">
+
+                        <!-- Icon heart -->
+                        <div class="text-hover header-icon-heart">
+                            <label for="nav-heart-input"
+                                class="text-hover ti-heart hide-on-mobile-table hide-on-PC-low"></label>
+                            <label for="nav-heart-input"
+                                class="header-icon-heart-notice hide-on-mobile-table hide-on-PC-low">3</label>
+
+                            <input type="checkbox" hidden name="" class="heart-checkbox" id="nav-heart-input">
+
+                            <label for="nav-heart-input" class="icon-heart-overlay"></label>
+                            <div class="icon-heart-WishList">
+                                <label for="nav-heart-input" class="icon-heart-product-close ti-close"></label>
+                                <div class="icon-heart-WishList-father">
+                                    <h2>Yêu Thích</h2>
+                                    <div class="icon-heart-product">
+                                        <img class="icon-heart-product-img" src="./assets/img/default-1.jpg" alt="">
+
+                                        <ul class="icon-heart-product-description">
+                                            <li class="product-description-name">Chair Black</li>
+                                            <li class="product-description-price">1 x $49.00</li>
+                                        </ul>
+                                        <i class="icon-heart-product-bin ti-trash"></i>
+                                    </div>
+
+                                    <div class="icon-heart-product">
+                                        <img class="icon-heart-product-img" src="./assets/img/default-1 (1).jpg" alt="">
+
+                                        <ul class="icon-heart-product-description">
+                                            <li class="product-description-name">Chair Black</li>
+                                            <li class="product-description-price">1 x $49.00</li>
+                                        </ul>
+                                        <i class="icon-heart-product-bin ti-trash"></i>
+                                    </div>
+
+                                    <div class="icon-heart-product">
+                                        <img class="icon-heart-product-img" src="./assets/img/default-1 (2).jpg" alt="">
+
+                                        <ul class="icon-heart-product-description">
+                                            <li class="product-description-name">Chair Black</li>
+                                            <li class="product-description-price">1 x $49.00</li>
+                                        </ul>
+                                        <i class="icon-heart-product-bin ti-trash"></i>
+                                    </div>
+                                </div>
+
+                                <button class="heart-WishList-btn">Xem chi tiết</button>
+                            </div>
+                        </div>
+
+                        <!-- Icon bag -->
+
+                        <div class="text-hover header-icon-bag">
+                            <label for="nav-bag-input"
+                                class="text-hover ti-bag hide-on-mobile-table hide-on-PC-low"></label>
+                            <label for="nav-bag-input"
+                                class="header-icon-bag-notice hide-on-mobile-table hide-on-PC-low">6</label>
+
+                            <input type="checkbox" hidden name="" class="bag-checkbox" id="nav-bag-input">
+                            <label for="nav-bag-input" class="icon-bag-overlay"></label>
+                            <div class="icon-bag-Shopping">
+                                <label for="nav-bag-input" class="icon-bag-product-close ti-close"></label>
+                                <h2>Giỏ hàng</h2>
+                                <div class="icon-bag-Shopping-father">
+                                </div>
+
+                                <div class="bag-sum">
+                                </div>
+
+                                <div class="bag-btn">
+                                    <a href="viewCart.html"><button class="bag-WishList-btn">Chi tiết giỏ hàng</button></a>
+                                    <button class="bag-WishList-btn">Yêu thích</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Icon search -->
+                        <div class="text-hover header-icon-search">
+                            <label for="nav-search-input"
+                                class="text-hover ti-search hide-on-mobile-table hide-on-PC-low"></label>
+                            <input type="checkbox" hidden name="" class="search-checkbox" id="nav-search-input">
+                            <div class="icon-search-click">
+                                <label for="nav-search-input" class="icon-search-close ti-close"></label>
+                                <input type="search" placeholder="type keyword(s) here" class="icon-search-input">
+                                <button class="icon-search-btn">SEARCH</button>
+                            </div>
+                        </div>
+
+                        <!-- Icon bars -->
+                        <label for="nav-bars-input" class="header-icon-bars">
+                            <label for="nav-bars-input" class="text-hover ti-menu"></label>
+                            <input type="checkbox" hidden name="" class="bars-checkbox" id="nav-bars-input">
+                            <label for="nav-bars-input" class="icon-bars-overlay"></label>
+                            <div class="icon-bars-Info">
+                                <label for="nav-bars-input" class="icon-bars-Info-close ti-close"></label>
+                                <div class="icon-bars-Info-Contact">
+                                    <h1>HONO</h1>
+                                    <div class="Info-Contact-address">
+                                        <span>Địa chỉ: Quận 12, Hồ Chí Minh</span>
+                                        <span>Email: cuongttph18894@fpt.edu</span>
+                                        <span>Số điện thoại: 0353117498</span>
+                                    </div>
+                                    <div class="Info-Contact-social">
+                                        <li>
+                                            <i class="fab fa-facebook-f"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-twitter"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-instagram"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </li>
+                                    </div>
+                                    <ul class="Info-Contact-text">
+                                        <a style="text-decoration: none;" href="sign-up.html">
+                                            <li>Đăng nhập</li>
+                                        </a>
+                                        <a style="text-decoration: none;" href="sign-up.html">
+                                            <li>Đăng kí</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider-main">
+            <h2 class="slider-title">Sản phẩm</h2>
+            <ul class="slider-nav">
+                <li>
+                    Trang chủ
+                    <i class="slider-nav-icon ti-angle-right"></i>
+                </li>
+                <li>Sản phẩm
+                    <i class="slider-nav-icon ti-angle-right"></i>
+                </li>
+                <li>Giỏ hàng</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="brand-body">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 c-12">
+                    <div id="toast"></div>
+                    <div class="filterPrice">
+                        <h3 class="filterPrice-title">Lọc sản phẩm</h3>
+                        <div class="filterPrice-children">
+                            <input type="checkbox" name="filter" class="filter" checked>
+                            <label for="">Tất cả sản phẩm</label>
+                        </div>
+                        <div class="filterPrice-children">
+                            <input type="checkbox" name="filter" class="filter" value="1000000-2000000">
+                            <label for="">1.000.000 - 2.000.000 đ</label>
+                        </div>
+                        <div class="filterPrice-children">
+                            <input type="checkbox" name="filter" class="filter" value="2000000-4000000">
+                            <label for="">2.000.000 - 4.000.000 đ</label>
+                        </div>
+                        <div class="filterPrice-children">
+                            <input type="checkbox" name="filter" class="filter" value="4000000-10000000">
+                            <label for="">4.000.000 - 10.000.000 đ</label>
+                        </div>
+                        <div class="filterPrice-children">
+                            <input type="checkbox" name="filter" class="filter" value="10000000-50000000">
+                            <label for="">10.000.000 - 50.000.000 đ</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-9 c-12">
+                    <div class="row product-img-cate">
+
+                    </div>
+
+                    <div class="product-icon">
+                        <i class="product-icon-prev-btn ti-arrow-left"></i>
+                        <i class="product-icon-next-btn ti-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row footer-top">
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Thông tin
+                        </h5>
+                        <ul class="footer-nav">
+                            <li>Giới thiệu</li>
+                            <li>Chuyện HONO</li>
+                            <li>Liên hệ</li>
+                            <li>Tuyển dụng</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Tài khoản
+                        </h5>
+                        <ul class="footer-nav">
+                            <li>Tài khoản của tôi</li>
+                            <li>Yêu thích</li>
+                            <li>Đăng kí câu hỏi</li>
+                            <li>Lịch sử mua hàng</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Cảm hứng
+                        </h5>
+                        <ul class="footer-nav">
+                            <li>Sản phẩm</li>
+                            <li>Ý tưởng và cảm hứng</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col l-3">
+                    <div class="footer-information">
+                        <h5 class="footer-title">
+                            Về chúng tôi
+                        </h5>
+                        <ul class="footer-nav-aboutUs">
+                            <li>Hãy để lại email của bạn để nhận được những ý tưởng trang trí mới và những thông tin, ưu đãi từ HONO</li>
+                            <li>Địa chỉ: Địa chỉ của bạn. Email: demo@example.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row footer-center">
+                <div class="col l-3">
+                    <h2 class="footer-center-title">FOLLOW US</h2>
+                    <ul class="footer-center-social">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                    </ul>
+                </div>
+
+                <div class="col l-9">
+                    <h2 class="footer-center-title">Liên hệ với chúng tôi nhé!</h2>
+                    <div class="footer-center-form">
+                        <input type="Email" placeholder="Your email address...">
+                        <button type="submit">Gửi ngay!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer-bottom">
+                <div class="footer-bottom-text">
+                    <p class="coppyright">
+                        © 2021
+                        <a href="">Hono</a>
+                        . Made with
+                        <i class="fas fa-heart"></i>
+                        by
+                        <a href="">HasThemes</a>
+                    </p>
+                </div>
+                <img src="assets/img/payment.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/user/asmGĐ2-thiet ke trang web/js/category.js"></script>
+<script src="/user/asmGĐ2-thiet ke trang web/js/products/showProducts.js"></script>
+<script src="/user/asmGĐ2-thiet ke trang web/js/products/listProduct.js"></script>
+</html>

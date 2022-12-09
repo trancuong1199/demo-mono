@@ -1,0 +1,187 @@
+/* Mobile and Table */
+
+@media (max-width: 1023px) {
+    .hide-on-mobile-table {
+        display: none;
+    }
+
+    .product-review--separate::after {
+        display: none;
+    }
+
+    .article-first:hover .article-first-img,
+    .article-second:hover .article-second-img {
+        transform: scale(1);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .product-name {
+        margin-top: 30px;
+    }
+
+    .register-separate::after {
+        display: none;
+    }
+}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-table {
+        display: none;
+    }
+
+    .body-place-lonDon {
+        margin-top: 50px;
+    }
+
+    .main-register {
+        margin-top: 40px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .footer {
+        padding: 0 20px;
+    }
+
+    .lookBook-child {
+        margin-right: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .brand-body-right-logo img {
+        width: 80px;
+    }
+
+    .body-place-lonDon {
+        margin-top: 50px;
+    }
+
+    .slider-title h4 {
+        font-size: 1.9rem;
+    }
+    
+    .slider-title h2 {
+        font-size: 4rem;
+    }
+
+    .slider-title-main {
+        line-height: 40px;
+    }
+
+    /* product respon */
+
+    .product-form {
+        display: block;
+    }
+
+    .product-form-quantity,
+    .product-form-color {
+        margin-top: 15px;
+    }
+
+    .product-title {
+        line-height: 25px;
+    }
+
+    .product-info {
+        display: block;
+        text-align: left;
+    }
+
+    .product-info li {
+        margin-top: 10px;
+    }
+    
+    .product-btn-lookbook {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .product-bottom-menu {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+    /* sign in */
+
+    .sign-in-bottom {
+        display: block;
+        margin-left: 35px;
+    }
+
+    .sign-in-btn {
+        position: relative;
+        height: 30px;
+        width: 120px;
+        font-size: 1rem;
+    }
+
+    .sign-in-forgot {
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-left: -69px;
+        width: 100%;    
+    }
+
+    .register-check {
+        left: 1%;
+    }
+
+    .register-check h3 {
+        font-size: 1rem;
+        width: 72%;
+    }
+
+    .sign-in-bottom {
+        width: 78%;
+    }
+
+    .main-register {
+        margin-top: 40px;
+    }
+
+    .register-bottom {
+        display: block;
+        margin-left: 25px;
+    }
+
+    .privacy-policy {
+        margin-top: 10px;
+        margin-left: -39px;
+    }
+
+}
+
+/* > PC low resolution */
+
+@media (min-width: 1024px) and (max-width: 1480px) { 
+    .hide-on-PC-low {
+        display: none;
+    }
+
+    .main-menu ul{
+        width: 600px;
+    }
+
+    .main-menu ul li {
+        margin-right: 25px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .footer-img {
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,137 @@
+main {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.sign-in-title {
+    position: relative;
+    left: -35.5%;
+    font-size: 1.5rem;
+    color: #575153;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.sign-in-password,
+#sign-in-email {
+    width: 80%;
+    font-size: 1.3rem;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #e7e7e7;
+    color: var(--text-color);
+}
+
+.sign-in-password {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sign-in-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.sign-in-btn {
+    position: relative;
+    left: -0.3%;
+    height: 45px;
+    width: 25%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #575153;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid #777;
+    background-color: transparent;
+    transition: .4s ease-in-out;
+}
+
+.sign-in-btn:hover {
+    border: none;
+    cursor: pointer;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    transition: .4s ease-in-out;
+}
+
+.sign-in-forgot {
+    position: relative;
+    left: 25%;
+    color: #8e8c8c;
+    transition: .4s ease-in-out;
+}
+
+.sign-in-forgot:hover {
+    color: var(--main-color);
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+/* register */
+
+.register {
+    text-align: center;
+}
+
+.register-title {
+    position: relative;
+    right: 34%;
+    font-size: 1.5rem;
+    color: #575153;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.confirm-password {
+    margin-top: 0;
+}
+
+.register-check {
+    position: relative;
+    left: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.register-check-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.register-check-btn:hover {
+    cursor: pointer;
+}
+
+.register-check h3 {
+    color: #8e8c8c;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+.create-btn {
+    position: relative;
+    left: 7.5%;
+    width: 200px;    
+}
+
+.privacy-policy {
+    position: relative;
+    left: 19.5%;
+    width: 200px;
+}
+
+.register-separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 2px solid #eeeeee;;
+    height: 55%;
+    margin-left: -10px;
+    margin-top: -23%;
+}
